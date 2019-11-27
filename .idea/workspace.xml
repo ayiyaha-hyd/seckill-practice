@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="seckill:war exploded" />
+      <artifact name="seckill-practice:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a8f7dc5-2b1b-4bcf-bc6a-72bd0ed2c0b1" name="Default Changelist" comment="" />
+    <list default="true" id="5a8f7dc5-2b1b-4bcf-bc6a-72bd0ed2c0b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/dao/cache/RedisDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/dao/cache/RedisDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dao/cache/RedisDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/dao/cache/RedisDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/impl/SeckillServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/seckill/WEB-INF/classes/org/seckill/service/impl/SeckillServiceImpl.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -169,7 +178,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/seckill" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="seckill:war exploded">
+        <artifact name="seckill-practice:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/seckill" />
           </settings>
@@ -235,6 +244,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="seckill:war exploded" />
+          <artifact name="seckill-practice:war exploded" />
         </option>
       </method>
     </configuration>
@@ -276,10 +286,22 @@
       <workItem from="1573353743976" duration="2935000" />
       <workItem from="1573560465653" duration="3267000" />
       <workItem from="1574314135087" duration="858000" />
+      <workItem from="1574852395097" duration="1027000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
